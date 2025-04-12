@@ -2,7 +2,7 @@
 
 ### ❤️ Support
 
-If you find this project helpful, please consider giving this repository a ⭐️ on GitHub, and don't forget to **like**, **share**, and **subscribe** to support our journey!
+If you find this project helpful, please consider giving this repository a ⭐️ on GitHub.
 
 ## 📌 Project Overview
 
@@ -13,9 +13,7 @@ Welcome to the **AI Resume Builder** repository! This project leverages cutting-
 - 🔐 **Authentication with Kinde** - Google Sign-In
 - ➕ **Creating Resumes**
 - ✏️ **Editing Resumes**
-- 🎨 **Resume Theme Colors**
 - 📸 **Resume Thumbnail**
-- 🗨️ **Shareable Resume Link**
 - 🔎 **Search Trash Resume**
 - 📡 **Real-Time Editing**
 - 🔗 **Preview Mode**
@@ -50,10 +48,10 @@ After deploying, navigate to **Vercel > Project Settings > Environment Variables
 Replace all occurrences of `localhost` with your Vercel domain URL, as shown below:
 
 ```plaintext
-KINDE_SITE_URL=https://cvbuild-ai.vercel.app/
-KINDE_POST_LOGOUT_REDIRECT_URL=https://cvbuild-ai.vercel.app/
-KINDE_POST_LOGIN_REDIRECT_URL=https://cvbuild-ai.vercel.app/dashboard
-NEXT_PUBLIC_APP_URL=https://cvbuild-ai.vercel.app/
+KINDE_SITE_URL=https://hirelens-airesume.vercel.app
+KINDE_POST_LOGOUT_REDIRECT_URL=https://hirelens-airesume.vercel.app
+KINDE_POST_LOGIN_REDIRECT_URL=https://hirelens-airesume.vercel.app/dashboard
+NEXT_PUBLIC_APP_URL=https://hirelens-airesume.vercel.app/
 ```
 
 These variables ensure that the app functions properly on your Vercel deployment.
