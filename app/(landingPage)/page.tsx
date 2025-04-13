@@ -67,8 +67,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+
       {/*section two*/}
-      <div className="w-full bg-white py-16 px-4 md:px-6 lg:px-8 mt-8">
+      <div id="services" className="w-full bg-white py-16 px-4 md:px-6 lg:px-8 mt-8">
         <div className="max-w-6xl mx-auto">
 
           <div className="text-center">
@@ -185,7 +187,7 @@ export default function Home() {
     </div>
 
       {/* Streamline Your Resume Creation Section */}
-      <div className="w-full bg-white py-16 px-4 md:px-6 md:mt-[-120px] lg:mt-[-80px] mt-[-140px] lg:px-8">
+      <div id="why" className="w-full bg-white py-16 px-4 md:px-6 md:mt-[-120px] lg:mt-[-80px] mt-[-140px] lg:px-8">
         <div className="max-w-6xl mx-auto">
         <div className="bg-gray-50 py-16 px-4 text-center">
       <p className="text-[#1a5ce0] text-[18px] font-bold">Why Choose Me</p>
@@ -242,7 +244,7 @@ export default function Home() {
       </div>
 
 
-      <div>
+      <div id="contact">
         <ContactForm />
       </div>
 
